@@ -2,7 +2,9 @@
 
 **How much engagement does a platform give up when it shows a random video instead of a recommended one, and for which users is that cost lowest?**
 
-Short-video platforms reserve part of every feed for *exploration*: content the recommender is not confident about, shown to collect feedback, surface new creators, and avoid feedback loops. This project uses a randomized exposure log from Kuaishou to measure what that exploration traffic costs in engagement, and where it is cheapest to place.
+Short-video platforms reserve part of every feed for *exploration*: content the recommender is not confident about, shown to collect feedback, surface new creators, and avoid feedback loops. 
+
+This project uses a randomized exposure log from Kuaishou to measure what that exploration traffic costs in engagement, and where it is cheapest to place.
 
 ## Key results
 
