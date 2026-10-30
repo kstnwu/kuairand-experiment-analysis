@@ -5,7 +5,7 @@
 Short-video platforms reserve part of every feed for *exploration*: content the recommender is not confident about, shown to collect feedback, surface new creators, and avoid feedback loops. This project uses a randomized exposure log from Kuaishou to measure what that exploration traffic costs in engagement, and where it is cheapest to place.
 
 ## Key results
-
+![Key results summary](figures/key_results.png)
 - **A random impression loses about 80% of a recommended impression's engagement.** Within the same user, a random video gets 80.5% fewer long views, 19.3 fewer seconds of play time (−78.6%), 68.6% fewer clicks, and 77.5% fewer likes. Hate rate rises by 84%.
 - **Each percentage point of exploration traffic costs about 0.8% of total watch time**, assuming per-impression effects with no spillover (0.01 × 78.6%).
 - **The naive comparison understates the cost.** Random impressions come disproportionately from users with higher baseline engagement (pre-period play time +13.2%), so a simple difference in means is biased toward zero (−71.6% vs. −78.6% for play time).
